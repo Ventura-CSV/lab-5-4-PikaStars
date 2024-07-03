@@ -2,11 +2,10 @@ import random
 
 
 def minmax(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    minval = numbers[0] 
+    for n in numbers:
+        if n < minval:
+            minval = n 
 
     ########################################
     # Do not delete the return statement
