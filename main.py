@@ -3,10 +3,14 @@ import random
 
 def minmax(numbers):
     minval = numbers[0] 
+    maxval = numbers[0] 
     for n in numbers:
         if n < minval:
             minval = n 
 
+    for n in numbers:
+        if n > maxval:
+            maxval = n 
     ########################################
     # Do not delete the return statement
     ########################################
